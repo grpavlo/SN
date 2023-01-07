@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.topTextS{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 600px;
+    height: 77px;
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+
+    color: #000000;
+
+    text-shadow: -5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.avatarS{
+    position: absolute;
+    width: 442px;
+    height: 179px;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.textAvatar{
+    position: absolute;
+    width: 441px;
+    height: 77px;
+    left: 110px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.allAvatar{
+    position: absolute;
+    width: 442px;
+    height: 94px;
+    left: 1px;
+    top: 53px;
+}
+
+.buttonIconPlusS{
+    position: absolute;
+    width: 361px;
+    height: 78px;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    background: #E0DAB8;
+    border: 6px solid #000000;
+    box-shadow: -5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttonIconPlusSt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 77px;
+
+    color: #000000;
+    text-align: center;
+    text-shadow: -5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttonS{
+    position: absolute;
+    width: 562px;
+    height: 78px;
+    left: 50%;
+    top: 10%;
+
+    transform: translate(-50%,-50%);
+
+    background: #7C9A92;
+    border: 6px solid #000000;
+    box-shadow: -5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttonIconPlusSB{
+    position: absolute;
+    top: -7px;
+    left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+
+    color: #000000;
+}
+
+.centreChange{
+    position: absolute;
+    width: 542px;
+    height: 184px;
+    left: 50%;
+    top: 45%;
+
+    transform: translate(-50%,-50%);
+
+}
+
+.centreChangeTS{
+    position: absolute;
+    width: 600px;
+    height: 77px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #000000;
+
+}
+
+.centreChangeI{
+    position: absolute;
+    width: 391px;
+    height: 69px;
+    left: 75px;
+    top: 115px;
+
+    background: #C5C5C5;
+    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 158px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #000000;
+}
+
+@media only  screen and (max-width: 750px) {
+    .topTextS{
+        left: 55%;
+        width: 360px;
+        font-size: 35px;
+    }
+
+    .buttonS{
+        width: 350px;
+    }
+
+    .buttonIconPlusSB{
+        font-size: 35px;
+    }
+
+    .centreChangeTS{
+        width: 350px;
+        height: 77px;
+        left: 50%;
+        top: 40%;
+
+        transform: translate(-50%,-50%);
+
+        font-size: 40px;
+
+    }
+
+    .textAvatar{
+        position: absolute;
+        width: 250px;
+        height: 77px;
+        left: 110px;
+        top: 0px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+
+        color: #000000;
+    }
+
+    .buttonIconPlusS{
+        width: 100px;
+    }
+
+    .buttonIconPlusSt{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%,-50%);
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 77px;
+
+        color: #000000;
+        text-align: center;
+        text-shadow: -5px 10px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .centreChange{
+        position: absolute;
+        width: 400px;
+        height: 184px;
+        left: 50%;
+        top: 45%;
+
+        transform: translate(-50%,-50%);
+
+    }
+
+    .centreChangeI{
+
+        left: 0px;
+
+    }
+}

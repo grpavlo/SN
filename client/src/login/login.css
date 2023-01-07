@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body{
+    background-color: #314448;
+}
+
+.main{
+    position: absolute;
+    width: 542px;
+    height: 648px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.background{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 542px;
+    height: 574px;
+    left: 0px;
+    top: 0px;
+
+    background: #E0DAB8;
+    border: 5px solid #000000;
+    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nickName{
+    position: absolute;
+    width: 391px;
+    height: 184px;
+    left: 75px;
+    top: 76px;
+
+}
+
+.textNickname{
+    position: absolute;
+    width: 301px;
+    height: 77px;
+    left: 45px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #000000;
+}
+
+.inputNickName{
+    position: absolute;
+    width: 391px;
+    height: 69px;
+    left: 0px;
+    top: 100px;
+
+    background: #C5C5C5;
+    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 158px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 50px;
+
+    text-align: center;
+    color: #000000;
+}
+
+.password{
+    position: absolute;
+    width: 391px;
+    height: 175px;
+    left: 75px;
+    top: 278px;
+}
+
+.textPassword{
+    position: absolute;
+    width: 296px;
+    height: 77px;
+    left: 48px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #000000;
+}
+
+.inputPassword{
+    position: absolute;
+    width: 391px;
+    height: 69px;
+    left: 0px;
+    top: 92px;
+
+    background: #C5C5C5;
+    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 158px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.button{
+    position: absolute;
+    width: 391px;
+    height: 149px;
+    left: 75px;
+    top: 499px;
+
+    filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
+
+    background: #7C9A92;
+    border: 3px solid #000000;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #000000;
+}
+
+.Forgot{
+    position: absolute;
+    width: 245px;
+    height: 24px;
+    left: 162px;
+    top: 457px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    background-color: #faebd700;
+    border: aliceblue;
+}
+

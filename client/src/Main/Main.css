@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.topM{
+    position: absolute;
+    width: 100%;
+    height: 129px;
+    right: 0px;
+    top: 0px;
+
+    background: #7C9A92;
+    border: 6px solid #000000;
+}
+
+.bottomM{
+    position: absolute;
+    width:  100%;
+    height: 129px;
+    right: 0px;
+    bottom: 0px;
+
+    background: #7C9A92;
+    border: 6px solid #000000;
+}
+
+.centreM{
+    position: fixed;
+    overflow: auto;
+    width: 980px;
+
+    left: 50%;
+    top: 129px;
+    bottom: 129px;
+    transform: translate(-50%);
+
+    background: #E0DAB8;
+    border: 6px solid #000000;
+}
+
+.containerM{
+
+    position: absolute;
+
+    width: 626px;
+    height: 623px;
+}
+
+.avatarM{
+    box-sizing: border-box;
+
+
+    width: 100px;
+    height: 100px;
+    left: 1px;
+    top: 0px;
+
+    background: #D9D9D9;
+    border: 6px solid #000000;
+    box-shadow: -5px 10px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+}
+.olM{
+    position: absolute;
+    list-style-type: none;
+    left: 50%;
+    transform: translate(-60%,0%);
+}
+.liM{
+
+    width: 626px;
+    height: 650px;
+}
+
+.topTextM{
+    position: absolute;
+    width: 600px;
+    height: 77px;
+    left: 38px;
+    top: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+
+    color: #000000;
+
+    text-shadow: -5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+.buttonIconM{
+    position: absolute;
+    width: 100px;
+    height: 87px;
+    right: 5%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0);
+}
+.iconM{
+    position: absolute;
+    width: 100px;
+    height: 87px;
+    right: 0px;
+    top: 0px;
+
+    filter: drop-shadow(-5px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.buttonIconHomeM{
+    position: absolute;
+    width: 122px;
+    height: 102px;
+    left: 10%;
+    top: 50%;
+    transform: translate(-10%,-50%);
+    background: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0);
+}
+
+.iconHomeM{
+    position: absolute;
+    width: 122px;
+    height: 102px;
+    left: 0px;
+    top: 0px;
+
+    filter: drop-shadow(-5px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.buttonIconPlusM{
+    position: absolute;
+    width: 122px;
+    height: 109px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0);
+}
+
+.iconPlusM{
+    position: absolute;
+    width: 122px;
+    height: 109px;
+    left: 0px;
+    top: 0px;
+
+
+    filter: drop-shadow(-5px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.buttonIconProfileM{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+
+    right: 10%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0);
+}
+
+.iconProfileM{
+
+    width: 90px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+
+    background: #D9D9D9;
+    border: 6px solid #000000;
+    box-shadow: -5px 10px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+
+}
+
+.nickNameM{
+    position: absolute;
+    width: 114px;
+    height: 29px;
+    left: 180px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textM{
+    position: absolute;
+    width: 488px;
+    height: 80px;
+    left: 180px;
+    font-family: 'Inter';
+    font-style: normal;
+    transform: translate(0%,-80%);
+    font-size: 24px;
+    line-height: 29px;
+    word-break:break-all;
+    color: #000000;
+}
+
+.containerPhotoM{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 486px;
+    height: 486px;
+    left: 180px;
+
+
+    background: #D9D9D9;
+
+    border-radius: 86px;
+    transform: translate(0%,5%);
+}
+
+.imgM{
+    position: absolute;
+
+    width: 486px;
+    height: 486px;
+    border: 6px solid #000000;
+    border-radius: 86px;
+}
+
+@media only  screen and (max-width: 750px) {
+
+    .bottomM{
+        height: 90px;
+    }
+
+    .topM{
+        height: 90px;
+    }
+
+    .centreM{
+
+
+
+        position: fixed;
+        overflow: auto;
+        width: 390px;
+
+        left: 50%;
+        top: 53%;
+        bottom: -40%;
+        transform: translate(-50%,-50%);
+
+        background: #E0DAB8;
+        border: 6px solid #000000;
+    }
+
+    .topTextM{
+        left: 10%;
+        top: 5%;
+        font-size: 25px;
+        width: 300px;
+        height: 90px;
+    }
+
+    .olM{
+        position: absolute;
+        list-style-type: none;
+        left: 50%;
+        transform: translate(-190%,0%);
+    }
+
+    .liM{
+
+        width: 100%;
+        height:  400px;
+    }
+
+    .containerPhotoM{
+
+        width: 200px;
+        height: 200px;
+        left: 130px;
+    }
+
+
+    .imgM{
+        position: absolute;
+
+        width: 200px;
+        height: 200px;
+        border: 6px solid #000000;
+        border-radius: 86px;
+    }
+
+    .textM{
+        white-space: pre-line;
+        position: absolute;
+        width: 250px;
+        height: 88px;
+        left: 130px;
+
+        font-style: normal;
+        transform: translate(0%,-50%);
+        font-size: 20px;
+        line-height: 20px;
+        word-break:break-all;
+        color: #000000;
+    }
+
+    .avatarM{
+        box-sizing: border-box;
+
+
+        width: 70px;
+        height: 70px;
+        left: 1px;
+        top: 0px;
+
+        background: #D9D9D9;
+        border: 6px solid #000000;
+        box-shadow: -5px 10px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 50px;
+    }
+
+    .nickNameM{
+        left: 130px;
+    }
+
+    .iconM{
+        width: 50px;
+        height: 50px;
+        right: -50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .iconHomeM{
+        width: 90px;
+        height: 90px;
+
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+
+    .iconPlusM{
+        width: 90px;
+        height: 90px;
+
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .buttonIconProfileM{
+        width: 70px;
+        height: 70px;
+
+        right: 5%;
+        top: 45%;
+        transform: translate(-50%,-50%);
+    }
+
+    .iconProfileM{
+        width: 70px;
+        height: 70px;
+
+    }
+
+    .buttonIconPlusM{
+
+        width: 90px;
+        height: 90px;
+
+    }
+}

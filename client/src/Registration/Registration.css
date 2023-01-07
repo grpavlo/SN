@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.mainR{
+
+    position: absolute;
+    width: 542px;
+    height: 648px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.backgroundR{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 542px;
+    height: 574px;
+    left: 0px;
+    top: 0px;
+
+    background: #E0DAB8;
+    border: 5px solid #000000;
+    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nickNameR{
+    position: absolute;
+    width: 210px;
+    height: 103px;
+    left: 166px;
+    top: 19px;
+}
+
+.textNicknameR{
+    position: absolute;
+    width: 120px;
+    height: 38px;
+    left: 46px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.inputNickNameR{
+    position: absolute;
+    width: 195px;
+    height: 34px;
+    left: 8px;
+    top: 47px;
+
+    background: #C5C5C5;
+    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 158px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+
+    color: #000000;
+    text-align: center;
+}
+
+.emailR{
+    position: absolute;
+    width: 210px;
+    height: 103px;
+    left: 167px;
+    top: 122px;
+}
+
+.textEmailR{
+    position: absolute;
+    width: 61px;
+    height: 29px;
+    left: 75px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.inputNickEmailR{
+    position: absolute;
+    width: 195px;
+    height: 34px;
+    left: 8px;
+    top: 35px;
+
+    background: #C5C5C5;
+    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 158px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+
+    color: #000000;
+    text-align: center;
+}
+
+.passwordR{
+    position: absolute;
+    width: 210px;
+    height: 103px;
+    left: 166px;
+    top: 225px;
+}
+
+.textPasswordR{
+    position: absolute;
+    width: 111px;
+    height: 29px;
+    left: 50px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.inputPasswordR{
+    position: absolute;
+    width: 195px;
+    height: 34px;
+    left: 8px;
+    top: 35px;
+
+    background: #C5C5C5;
+    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 158px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+
+    color: #000000;
+    text-align: center;
+}
+
+
+
+
+.buttonR{
+    position: absolute;
+    width: 391px;
+    height: 149px;
+    left: 75px;
+    top: 499px;
+
+    filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
+
+    background: #7C9A92;
+    border: 3px solid #000000;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #000000;
+}
+
+.avatar{
+    position: absolute;
+    width: 442px;
+    height: 179px;
+    left: 52px;
+    top: 328px;
+}
+
+.textAvatarR{
+    position: absolute;
+    width: 97px;
+    height: 39px;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-50%);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.allAvatar{
+    position: absolute;
+    width: 442px;
+    height: 94px;
+    left: 1px;
+    top: 53px;
+}
+
+.avatar1{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+
+    border: 0px;
+
+    background: url("../img/1.png");
+    background-size: 100%;
+
+}
+
+.avatar1Effect{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+
+    border: 0px;
+
+    background: url("../img/1.png");
+    background-size: 100%;
+
+    filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.avatar2{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 116px;
+    top: 0px;
+
+    border: 0px;
+
+    background: url("../img/2.png");
+    background-size: 100%;
+
+}
+
+.avatar2Effect{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 116px;
+    top: 0px;
+
+    border: 0px;
+
+    background: url("../img/2.png");
+    background-size: 100%;
+
+    filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.avatar3{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 232px;
+    top: 0px;
+
+    border: 0px;
+
+    background: url("../img/3.png");
+    background-size: 100%;
+
+}
+
+.avatar3Effect{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 232px;
+    top: 0px;
+
+    border: 0px;
+
+    background: url("../img/3.png");
+    background-size: 100%;
+
+    filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.avatar3{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 232px;
+    top: 0px;
+
+    border: 0px;
+
+    background: url("../img/3.png");
+    background-size: 100%;
+
+}
+
+.avatar3Effect{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 232px;
+    top: 0px;
+
+    border: 0px;
+
+    background: url("../img/3.png");
+    background-size: 100%;
+
+    filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.avatar4{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 348px;
+    top: 0px;
+
+    border: 0px;
+
+    background: url("../img/4.png");
+    background-size: 100%;
+
+}
+
+.avatar4Effect{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 348px;
+    top: 0px;
+
+    border: 0px;
+
+    background: url("../img/4.png");
+    background-size: 100%;
+
+    filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.login{
+    position: absolute;
+    width: 73px;
+    height: 63px;
+    left: 15px;
+    top: 10px;
+    background: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0);
+}
+
+.loginI{
+    position: absolute;
+    width: 73px;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+
+    filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media only  screen and (max-width: 750px) {
+    .login{
+        position: absolute;
+        left: 75px;
+        top: 10px;
+
+    }
+}
