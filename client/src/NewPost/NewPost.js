@@ -20,7 +20,7 @@ const NewPost = () =>{
 
 
         function idUser(){
-            fetch(`http://localhost:3001/api/getId`, {
+            fetch(`http://185.237.204.110:3001/api/getId`, {
                 method: 'post',
                 headers: {
                     'Content-Type': 'application/json',

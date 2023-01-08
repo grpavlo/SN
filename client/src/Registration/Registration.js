@@ -107,7 +107,7 @@ const Registration = ()=>{
     }, []);
 
     function getMerchant() {
-        fetch('http://localhost:3001')
+        fetch('http://185.237.204.110:3001')
             .then(response => {
                 return response.text();
             })
